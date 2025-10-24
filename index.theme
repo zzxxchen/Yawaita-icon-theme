@@ -1,0 +1,33 @@
+[Icon Theme]
+Name=Yawaita
+Comment=A blend of Yaru and Adwaita icon themes
+Inherits=Yaru
+Directories=scalable/places,apps/scalable,symbolic/actions,16x16/places
+
+[16x16/places]
+Context=Places
+Size=16
+Type=Fixed
+
+[scalable/places]
+Context=Places
+Size=128
+MinSize=8
+MaxSize=512
+Type=Scalable
+
+[apps/scalable]
+MinSize=1
+Size=128
+MaxSize=256
+Context=Applications
+Type=Scalable
+
+[symbolic/actions]
+Context=Actions
+Size=16
+MinSize=8
+MaxSize=512
+Type=Scalable
+
+
